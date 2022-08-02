@@ -114,3 +114,27 @@ p {
     line-height: 28px;
 }
 
+.md_buttom_hero {
+    background-color: #fff;
+    display: flex;
+    position: absolute;
+    top: 92%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 32px;
+    padding: 5px;
+    border-radius: 6px;
+}
+
+.btn {
+    font-size: 20px;
+    border: none;
+    margin: auto;
+    padding: 5px;
+    background-color: #fff;
+}
+
+.btn_1 {
+    color: #0a5ac4;
+    border-bottom: 4px solid #0a5ac4;
+}
