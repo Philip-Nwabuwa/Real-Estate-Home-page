@@ -1,0 +1,116 @@
+@import url('https://fonts.googleapis.com/css2?family=Orbitron:wght@400;600;700&display=swap');
+
+:root {
+    --font-family: 'Orbitron', sans-serif;
+}
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    list-style: none;
+    border: none;
+}
+
+html {
+    background-color: rgba(241, 241, 241, 1);
+    font-family: var(--font-family);
+}
+
+.main {
+    width: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 12px 8%;
+}
+
+.logo {
+    font-size: 26px;
+    font-weight: 600;
+    cursor: pointer;
+    height: 70px;
+    width: 90%;
+}
+
+.logo a h1 {
+    color: #fff;
+}
+
+.md_nav {
+    display: flex;
+}
+
+.md_nav li a{
+    display: inline-block;
+    padding: 0 20px;
+    font-weight: 400;
+    color: rgba(18, 18, 18, 1);
+    font-size: 16px;
+    line-height: 20px;
+}
+
+.logo > a {
+    color: rgba(24, 106, 165, 1) !important;
+}
+
+.nav_btn1 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    display: inline-block;
+    border: 1px solid #186aa5;
+    background-color: white;
+    color: black;
+    font-size: 14px;
+    line-height: 18px;
+    width: 100px;
+    padding: 16px 10px;
+    text-align: center;
+}
+
+.nav_btn2 {
+    color: rgba(255, 255, 255, 1);
+    background-color: #186aa5;
+    font-size: 14px;
+    width: 100px;
+    line-height: 18px;
+    padding: 16px 26.5px;
+}
+
+/* hero section */
+.inner {
+    position: relative;
+    text-align: center;
+    color: #fff;
+}
+.hero_img {
+    height: 550px;
+    width: 98%;
+    background: linear-gradient(0deg, rgba(0, 0, 0, 0.24), rgba(0, 0, 0, 0.24))
+}
+
+h2 {
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 32px;
+    padding-bottom: 10px;
+}
+
+p {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 20px;
+    line-height: 28px;
+}
+
