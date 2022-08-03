@@ -1,5 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Orbitron:wght@400;600;700&display=swap');
-
+@import url('https://fonts.googleapis.com/css2?family=Orbitron:wght@400;600;700&family=Poppins:ital,wght@0,400;0,700;1,400&display=swap');
 :root {
     --font-family: 'Orbitron', sans-serif;
 }
@@ -92,7 +91,7 @@ header {
 }
 .hero_img {
     height: 550px;
-    width: 98%;
+    width: 100%;
     background: linear-gradient(0deg, rgba(0, 0, 0, 0.24), rgba(0, 0, 0, 0.24))
 }
 
@@ -112,13 +111,15 @@ p {
     transform: translate(-50%, -50%);
     font-size: 20px;
     line-height: 28px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 400;
 }
 
 .md_buttom_hero {
     background-color: #fff;
     display: flex;
     position: absolute;
-    top: 92%;
+    top: 87%;
     left: 50%;
     transform: translate(-50%, -50%);
     font-size: 32px;
@@ -132,9 +133,39 @@ p {
     margin: auto;
     padding: 5px;
     background-color: #fff;
+    margin: 0 5px 0 5px;
 }
 
 .btn_1 {
     color: #0a5ac4;
     border-bottom: 4px solid #0a5ac4;
+    margin: 0 5px 0 5px;
+}
+
+.btn_2 {
+    border-bottom: 4px solid #fff;
+    margin: 0 5px 0 5px;
+}
+
+.advanced_filtering {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transform: translate(30%, -60%);
+    font-size: 16px;
+    width: 60%;
+    /* padding: 5px; */
+    border-radius: 6px;
+}
+
+.advanced_filter {
+    background-color: #fff;
+    height: 80px;
+    width: 100%;
+    border-radius: 6px;
+    padding: 10px;
+}
+
+#propety_type {
+    text-align: center;
 }
